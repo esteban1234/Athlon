@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" type="image/png" href="../img/ATHLONI.png" />
 	<title> ATHLON | PROFESIONALES EN ELECTRÓNICA</title>
 	 <!-- <META name="msvalidate.01" content="7AEE48A22367420FBAD3410E00B8737C"/> -->
 	<title> Diseño de paginas web yucatan, sitios web merida yucatan, Mexico Yucatan Merida , Soluciones de impresion</title>
