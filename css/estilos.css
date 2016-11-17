@@ -1,0 +1,1048 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(190, 208, 1);
+}
+
+.nav-header,
+#logo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav-header {
+    width: 70%;
+    height: 0px auto;
+    margin: 2.5% auto;
+}
+
+#logo {
+    width: 20%;
+}
+
+.athlon {
+    width: 100%;
+    height: 120px;
+}
+
+
+/*-----------------menu------------------*/
+
+#header__icon {
+    display: none;
+}
+
+#nav {
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#nav > ul > li {
+    float: left;
+    list-style: none;
+}
+
+#nav > ul > li:last-child {
+    padding-right: 0;
+}
+
+#nav > ul > li > a,
+#nav > ul > li > span {
+    display: block;
+    margin-left: 0.7em;
+    padding: 0.80em 1.2em;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    outline: 0;
+    color: #333;
+}
+
+#nav li.active a {
+    background-color: rgb(190, 208, 1);
+    border-radius: 5px;
+    color: #FFF;
+}
+
+#nav li:hover a {
+    background: rgb(190, 208, 1);
+    border-radius: 5px;
+    color: #FFF;
+}
+
+#nav > ul > li > ul {
+    display: none;
+}
+
+
+/*-------------------Banner------------*/
+
+#banner {
+    position: relative;
+    height: 410px;
+    background: url('../img/banner.jpg') no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.bannerdos {
+    width: 100%;
+    margin-top: 9%;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.bannertres {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.banner4 {
+    color: rgb(190, 208, 1);
+}
+
+
+/*-------------boton banner----------*/
+
+.contenboton {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.buttonbanner {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(190, 208, 1);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 15%;
+}
+
+.buttonbanner span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.buttonbanner span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttonbanner:hover {
+    background-color: black;
+    color: white;
+}
+
+.buttonbanner:hover span {
+    padding-right: 25px;
+}
+
+.buttonbanner:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/*----------------seccionindex------------*/
+
+.introserindex {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    padding: 2% 0% 2% 0%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.seccionindexuno {
+    width: 78%;
+    margin: 0 auto;
+}
+
+.imgindex1 {
+    height: 180px;
+    background: url(../img/alamedida.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.imgindex2 {
+    height: 180px;
+    background: url(../img/adaptable.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.imgindex3 {
+    height: 180px;
+    background: url(../img/actualizables.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.indexser {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+    height: auto;
+}
+
+.conttextoencabezadoindex-y-textoindex {
+    width: 100%;
+    padding: 5% 5% 0% 5%;
+    background-color: rgb(190, 208, 1);
+}
+
+.textoencabezadoindex {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.textoindex {
+    text-align: justify;
+    margin-top: 5%;
+    font-size: 16px;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icono1 {
+    color: white;
+    font-size: 30px;
+}
+
+.conicono {
+    transition: 2.5s ease;
+    -moz-transition: 2.5s ease;
+    /* Firefox */
+    -webkit-transition: 2.5s ease;
+    /* Chrome - Safari */
+    -o-transition: 2.5s ease;
+    /* Opera */
+}
+
+.conicono:hover {
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    /* Firefox */
+    -webkit-transform: rotate(360deg);
+    /* Chrome - Safari */
+    -o-transform: rotate(360deg);
+    /* Opera */
+}
+
+.conicono {
+    margin-top: 3%;
+}
+
+.enlaceicono {
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*-------------boton caracteristicas de servicios----------*/
+
+.contenbotondos {
+    width: 100%;
+    text-align: center;
+}
+
+.buttonsecciondos {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(190, 208, 1);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.buttonsecciondos span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.buttonsecciondos span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttonsecciondos:hover {
+    background-color: black;
+    color: white;
+}
+
+.buttonsecciondos:hover span {
+    padding-right: 25px;
+}
+
+.buttonsecciondos:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.divisor {
+    width: 100%;
+    margin-top: 2%;
+    background-color: rgb(190, 208, 1);
+}
+
+.sistema {
+    padding: 2% 0% 0% 0%;
+    width: 50%;
+    margin-left: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+}
+
+.sistema2 {
+    color: white;
+}
+
+.subsistema {
+    padding: 0% 0% 2% 0%;
+    width: 50%;
+    margin-left: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+
+/*---------seccion dos-----------*/
+
+.seccionindexdos {
+    width: 100%;
+    height: 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    background-image: url(../img/DesarrollodeERP.jpg);
+    overflow: hidden;
+}
+
+.integrado {
+    background: rgba(0, 0, 0, .8);
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.contineerp {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.subcontineerp {
+    outline: 1px gray solid;
+    background: rgba(0, 0, 0, .8);
+    width: 22%;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+.dentrosubcontieneerp {
+    border-bottom: 1px gray solid;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 4%;
+}
+
+.contenbotontres {
+    width: 100%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+
+/*----------------foooter--------------*/
+
+footer {
+    height: 50px;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(190, 208, 1);
+}
+
+.piecondos {
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.dtcdos {
+    text-align: center;
+    font-size: 18px;
+    font-family: helvetica;
+    color: white;
+}
+
+.petruspie {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+
+/*------------------ir-arriba-------------*/
+
+.ir-arriba {
+    display: none;
+    padding: 20px;
+    background: rgb(190, 208, 1);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+/*-------------------quienes somos-----------------------------*/
+
+.conq {
+    width: 100%;
+    margin: 0 auto;
+    height: 446px;
+}
+
+.conocenos {
+    width: 40%;
+    margin-left: 5%;
+    font-size: 55px;
+    color: rgb(190, 208, 1);
+    font-family: 'Oswald', sans-serif;
+}
+
+.informacioon,
+.informaciondos {
+    vertical-align: top;
+}
+
+.informacioon {
+    overflow: hidden;
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+}
+
+.textoinformativo {
+    width: 100%;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3%;
+}
+
+.informaciondos {
+    margin-top: 2%;
+    width: 35%;
+    float: right;
+    margin-right: 12%;
+    height: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/ATHLON.png);
+    overflow: hidden;
+}
+
+.secciondosq {
+    margin-top: 2%;
+    width: 100%;
+    height: 370px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(190, 208, 1, .8);
+    background-image: url(../img/dos.jpg);
+    overflow: hidden;
+}
+
+
+/*------------------mision vision objetivo---------*/
+
+.main {
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.view {
+    width: 30%;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border: 5px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.view .mask {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.view h2 {
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px 0 0 0;
+}
+
+.view p {
+    font-family: Georgia, serif;
+    position: relative;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.nuestrosv {
+    margin-top: 2%;
+    width: 40%;
+    font-size: 40px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+}
+
+.valoresq {
+    width: 78%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.convalores {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.valorestex {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-left: 2%;
+}
+
+.valorestex p {
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.iconov {
+    font-size: 35px;
+    color: rgb(190, 208, 1);
+}
+
+.contenbotonq {
+    width: 100%;
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+
+/*****************Diseño de Servicio**************/
+
+.contenservicios {}
+
+.soft {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+
+.servicios {
+    margin-left: 11%;
+    width: 40%;
+    font-size: 55px;
+    color: rgb(190, 208, 1);
+    font-family: 'Oswald', sans-serif;
+}
+
+.content-sup,
+.content-inf {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.fondo-img {
+    width: 100%;
+    margin-top: 1%;
+    height: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: block;
+}
+
+div.contenedor {
+    vertical-align: top;
+    width: 20%;
+    height: 380px;
+    display: inline-block;
+    transition: height .4s;
+    -webkit-transition: height .4s;
+    -moz-transition: height .4s;
+    -o-transition: height .4s;
+}
+
+
+/**************Colores de cada contenedor****************************/
+
+div#uno {
+    background-color: #5d6d7e;
+}
+
+div#dos {
+    background-color: #424949;
+}
+
+div#tres {
+    background-color: #515a5a;
+}
+
+div#cuatro {
+    background-color: #17202a;
+}
+
+div#cinco {
+    background-color: rgb(27, 54, 71);
+}
+
+div#seis {
+    background-color: rgb(21, 40, 54);
+}
+
+
+/************************************************************************/
+
+.icon {
+    background-image: url('../img/almacen.jpg');
+    background-color: rgba(255, 255, 255, .15);
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+    -webkit-transition: box-shadow .4s;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.icondos {
+    background-image: url('../img/administracion.jpg');
+    background-color: rgba(255, 255, 255, .15);
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+    -webkit-transition: box-shadow .4s;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.icontres {
+    background-image: url('../img/contabilidad.jpg');
+    background-color: rgba(255, 255, 255, .15);
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+    -webkit-transition: box-shadow .4s;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.iconcuatro {
+    background-image: url('../img/nominas.jpg');
+    background-color: rgba(255, 255, 255, .15);
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+    -webkit-transition: box-shadow .4s;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.iconcinco {
+    background-image: url('../img/crm.png');
+    background-color: rgba(255, 255, 255, .15);
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+    -webkit-transition: box-shadow .4s;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.iconseis {
+    background-image: url('../img/erp.jpg');
+    background-color: rgba(255, 255, 255, .15);
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+    -webkit-transition: box-shadow .4s;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+p.texto {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    opacity: .6;
+    -webkit-transition: padding-top .4s;
+}
+
+div.contenedor:hover p.texto {
+    opacity: 1;
+}
+
+div.contenedor:hover .icon {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6);
+}
+
+div.contenedor:hover .icondos {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6);
+}
+
+div.contenedor:hover .icontres {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6);
+}
+
+div.contenedor:hover .iconcuatro {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6);
+}
+
+div.contenedor:hover .iconcinco {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6);
+}
+
+div.contenedor:hover .iconseis {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, .6);
+}
+
+.informacion {
+    margin-top: 2%;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    opacity: .6;
+    -webkit-transition: padding-top .4s;
+}
+
+div.contenedor:hover div.informacion {
+    opacity: 1;
+}
+
+.servvalo {
+    background-color: rgba(190, 208, 1, .8);
+    overflow: hidden;
+    height: auto;
+}
+
+.servvalo p {
+    margin-top: 2%;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+
+.convaloranadidos {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2%;
+    overflow: hidden;
+    margin-bottom: 2%
+}
+
+.anadidos {
+    border: 1px white solid;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-left: 2.5%;
+    text-align: center;
+}
+
+.ico {
+    padding-top: 2%;
+    font-size: 40px;
+    color: black;
+    background-color: white;
+}
+
+.textoser {
+    margin-top: 2%;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.empresas p {
+    color: black;
+    margin-top: 2%;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.empresas {
+    overflow: hidden;
+}
+
+.anadidoss {
+    background-color: rgb(22, 107, 162);
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-left: 2.5%;
+    text-align: center;
+}
+
+.icodos {
+    padding-top: 2%;
+    font-size: 40px;
+    color: black;
+    background-color: rgb(22, 145, 190);
+}
+
+.textoserdos {
+    margin-top: 2%;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/**************Inicia Contacto*********************/
+
+.mapa,
+.direccion {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    vertical-align: top;
+}
+
+.direccion {
+    width: 38%;
+    margin-left: 0px;
+}
+
+.mapa {
+    margin-right: 0px;
+    width: 55%;
+}
+
+.texto_servicio {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.texto-direccion .dir-text,
+.texto-direccion span {
+    text-align: center;
+    display: inline-block;
+}
+
+.texto-direccion .dir-text {
+    width: 85%;
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.dir-text div {
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.texto-direccion span {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    color: rgb(190, 208, 1);
+    border-radius: 50%;
+}
+
+.group-input {
+    text-align: center;
+    margin: 10px;
+}
+
+.input-group {
+    display: inline-block;
+    width: 26.5%;
+    text-align: left;
+}
+
+input,
+.label,
+textarea {
+    width: 100%;
+    font-weight: bolder;
+    display: block;
+    font-size: 18px;
+    color: #545353;
+}
+
+.enviar {
+    background-color: rgb(190, 208, 1);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 15%;
+    text-align: center;
+    margin-left: 145px;
+}
+
+.enviar:hover {
+    background-color: black;
+    color: white;
+}
+
+.input-group input,
+textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #31849f;
+    font-size: 16px;
+    color: #31849f;
+    padding: 10px;
+}
+
+.group-comentario {
+    margin-top: 15px;
+    text-align: left;
+    width: 80%;
+    margin: 15px auto;
+}
+
+.img-fondo {
+    background-image: url(../img/linea.png);
+    background-position: 0 50%;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+}
+
+.contacto {
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 21%;
+    margin: 0 auto;
+    font-size: 55px;
+    color: rgb(190, 208, 1);
+    font-family: 'Oswald', sans-serif;
+}
+
+.mapa iframe {
+    width: 600px;
+    height: 450px;
+}
+
+
+/*************Termina contacto***********/
