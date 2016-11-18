@@ -46,7 +46,6 @@
 	                <div class="mask">
 	                    <h2>MISIÓN</h2>
 	                    <p>Desarrollar software administrativos, diseños web y demás servicios de calidad para proporcionar soluciones que ayuden a la evolución de su empresa.</p>
-
 	                </div>
 	            </div>
 	            <div class="view">

@@ -1,61 +1,67 @@
-<?php  
+<?php
+    //Incluimos la clase de PHPMailer
+    include('../phpmailer/phpmailer/class.phpmailer.php');
+    // require_once('phpmailer/class.smtp.php');
+    $correo = new PHPMailer(); //Creamos una instancia en lugar usar mail()
 
-include("../phpmailer/phpmailer/class.phpmailer.php");
+    // Datos que llegan del Formulario
+    // $destino = "bufetesc@hotmail.com";
+    // Datos que llegan del Formulario
+    $destino = "ballina.santiago.com";
+    $name = $_POST['nombre'];
+    $tel = $_POST['telefono'];
+    $email = $_POST['correo'];
+    $comentario = $_POST['comentario'];
 
-class Correo
-{
+    // Codificación UTF8. Obligado utilizarlo en aplicaciones en Español
+    $correo->CharSet = 'UTF-8';
 
-    public function __construct()
-    {
-        // $this->db = new Conexion();
-        $mail = new PHPMailer;
-        // $this->userMODEL = new Pedido();
-        // $this->mpdf = new mPDF('C','','','',15,15,55,15,10,10);
-        // $userMODEL = new Pedido();
+    // Timeout para el servidor de correos. Por defecto es valor es '10'
+    // $correo->Timeout=30;
+
+    //Usamos el SetFrom para decirle al script quien envia el correo
+    $correo->SetFrom($email, $name);
+
+    //Usamos el AddReplyTo para decirle al script a quien tiene que responder el correo
+    //$correo->AddReplyTo($email);
+
+    //Usamos el AddAddress para agregar un destinatario
+    $correo->AddAddress($destino, "Robot");
+
+
+
+    //Ponemos el asunto del mensaje
+    $correo->Subject = "Contacto nuevo mensaje";
+
+    /*
+     * Si deseamos enviar un correo con formato HTML utilizaremos MsgHTML:
+     * $correo->MsgHTML("<strong>Mi Mensaje en HTML</strong>");
+     * Si deseamos enviarlo en texto plano, haremos lo siguiente:
+     * $correo->IsHTML(false);
+     * $correo->Body = "Mi mensaje en Texto Plano";
+     */
+    $correo->MsgHTML(
+        "<strong> Nombre Completo: </strong>".$name."<br/>
+        <strong> Teléfono: </strong>".$tel."<br/>
+        <strong> Correo Electronico: </strong>".$email."<br/><br/>
+        <strong> Comentario: </strong>".$comentario
+        );
+
+    //Si deseamos agregar un archivo adjunto utilizamos AddAttachment
+    //$correo->AddAttachment("images/phpmailer.gif");
+
+    //Enviamos el correo
+    if(!$correo->Send()) {
+      // echo "Error al enviar: " . $correo->ErrorInfo;
+      echo " <script type='text/javascript'>
+                    alert('Error al Enviar Mensaje');
+                    window.location='contacto.php';
+                    </script> ";
+    } else {
+      echo " <script type='text/javascript'>
+                    alert('Mensaje Enviado con Exito');
+                    window.location='contacto.php';
+                    </script> ";
     }
 
-    public function sendMSJ(){
-        $this->mail->charset = 'UTF-8';
-        $this->mail->Encoding = 'quoted-printable';
-
-        $this->mail->isSMTP();                                      // Set mailer to use SMTP
-        // $this->mail->Host = 'p3plcpnl0173.prod.phx3.secureserver.net';  // Specify main and backup SMTP servers
-        $this->mail->Host = 'smtp.exchangeadministrado.com';  // Specify main and backup SMTP servers
-        $this->mail->SMTPAuth = true;                               // Enable SMTP authentication
-        $this->mail->Username = 'desarrollo@dmt.com.mx';                 // SMTP username
-        $this->mail->Password = '25dmt04';                           // SMTP password
-        $this->mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-        $this->mail->Port = 587;                                    // TCP port to connect to
-
-        $this->mail->setFrom('desarrollo@dmt.com.mx', 'Sergio Pacho');
-        $this->mail->addAddress('sistemas.soporte@dmt.com.mx', '');     // Add a recipient
-        // $this->mail->addAddress('ellen@example.com');               // Name is optional
-        // $this->mail->addReplyTo('info@example.com', 'Information');
-        // $this->mail->addCC('cc@example.com');
-        $this->mail->addBCC('ballina.santiago@gmail.com');
-
-        // $sqlid= $this->db->query("SELECT ID_ORP FROM orden_pedido ORDER BY ID_ORP DESC;");
-        // $resid = $this->db->runs($sqlid);
-        // $id = $resid['ID_ORP'];
-
-        $pdf = $this->sendPDF();
-        $this->mail->AddStringAttachment($pdf, 'pedido_'.date('d-m-Y').'.pdf', 'base64', 'application/pdf');         // Add attachments
-        //$this->mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-
-        $this->mail->isHTML(true);                                  // Set email format to HTML
-        $this->mail->Subject = 'Pedido de Toners';
-        $this->mail->Body    = 'hola';
-        // $this->mail->AltBody = 'jajjajajajajajajaja';
-
-        if(!$this->mail->send()) {
-            $msj = '<br><div class="alert alert-success">Error al enviar<br>';
-            $msj .= 'Mailer Error: ' . $this->mail->ErrorInfo.'</div><br>';
-        } else {
-            $msj = '<br><div class="alert alert-success">Mensaje Enviado</div><br>';
-        }
-        return $msj;
-    }
-
-
-}
 ?>

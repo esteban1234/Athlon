@@ -1,0 +1,1108 @@
+@media screen and (max-width: 480px){
+  header
+  {
+    width: 100%;
+  }
+
+  .nav-header
+  {
+    width:100%;
+		height:auto;
+    top:-300px;
+		position:fixed;
+    z-index: 100;
+    background: rgb(21, 201, 133);
+  }
+
+  #header__icon{
+    display: inline-block;
+    font-size: 45px;
+    line-height: 125px;
+  }
+
+  #logo
+  {
+    width: 80%;
+  }
+
+  #nav
+  {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #nav > ul > li{
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  #nav > ul > li a{
+    margin: 0px;
+    text-align: center;
+  }
+
+  #nav > ul > li a:hover{
+    background: none;
+  }
+
+  #nav li.active a {
+      /*background: #e95d3c;*/
+      background-color: rgb(235, 138, 60);
+      /*border-radius: 5px;*/
+      color: #FFF;
+  }
+
+  #banner
+  {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .bannerdos
+  {
+    margin: 30px 0px;
+  }
+
+  .bannertres
+  {
+    width: 100%;
+    margin: 0px;
+    text-align:center;
+    font-size: 20px;
+  }
+
+  .contenboton
+  {
+    padding: 0px;
+  }
+
+  .buttonbanner
+  {
+    font-size: 20px;
+    margin: 0px 90px;
+  }
+
+  .introserindex
+  {
+    font-size: 23px;
+  }
+
+  .seccionindexuno
+  {
+    width: 100%;
+    /*border: 2px solid red;*/
+  }
+
+  .indexser
+  {
+    width: 93%;
+    margin: 10px;
+  }
+
+  .contenbotondos
+  {
+    margin: 20px 0px;
+  }
+
+  .buttonsecciondos
+  {
+    font-size: 20px;
+    /*border: 2px solid red;*/
+  }
+
+  .seccionindexdos
+  {
+    height: auto;
+  }
+
+  .sistema
+  {
+    font-size: 20px;
+    margin-left: 40%;
+  }
+
+  .subsistema{
+    padding: 20px 10px;
+    text-align: justify;
+    width: 100%;
+    margin: 0px;
+
+  }
+
+  .integrado
+  {
+    font-size: 25px;
+    padding: 25px 0px;
+  }
+
+  .contineerp
+  {
+    width: 100%
+  }
+
+  .subcontineerp
+  {
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .contenbotontres
+  {
+    margin: 20px 0px;
+  }
+
+
+
+  .dtcdos, .petruspie
+  {
+    font-size: 15px;
+  }
+
+
+
+  .conocenos
+  {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .informacioon
+  {
+    width: 100%;
+    margin: 0px;
+    padding: 5px 20px;
+  }
+
+  .informaciondos
+  {
+    width: 100%;
+    margin:0px;
+  }
+
+  .secciondosq
+  {
+    height: auto;
+  }
+
+  .main{
+    width: 100%;
+  }
+
+  .view{
+    width: 95%;
+  }
+
+  .mask p
+  {
+    text-align: justify;
+  }
+
+  .nuestrosv
+  {
+    font-size: 25px;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .convalores
+  {
+    width: 100%;
+  }
+
+  .valorestex
+  {
+    width: 100%;
+  }
+
+
+  .servicios
+  {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    margin: 0px
+  }
+
+  .contenservicios
+  {
+    padding-top: 20px;
+    height: auto;
+  }
+
+  .soft
+  {
+    font-size: 30px;
+  }
+
+  .content-sup
+  {
+    width: 100%;
+  }
+
+  div.contenedor
+  {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .servvalo p{
+    font-size: 25px;
+  }
+
+  .convaloranadidos
+  {
+    width: 100%;
+  }
+
+  .anadidos
+  {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .empresas p{
+    font-size: 25px;
+  }
+
+  .anadidoss{
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+
+  header
+  {
+    width: 100%;
+  }
+
+  .nav-header
+  {
+    width:100%;
+		height:auto;
+    top:-300px;
+		position:fixed;
+    z-index: 100;
+    background: rgb(21, 201, 133);
+  }
+
+  #header__icon{
+    display: inline-block;
+    font-size: 45px;
+    line-height: 125px;
+  }
+
+  #logo
+  {
+    width: 80%;
+  }
+
+  #nav
+  {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #nav > ul > li{
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  #nav > ul > li a{
+    margin: 0px;
+    text-align: center;
+  }
+
+  #nav > ul > li a:hover{
+    background: none;
+  }
+
+  #nav li.active a {
+      /*background: #e95d3c;*/
+      background-color: rgb(235, 138, 60);
+      /*border-radius: 5px;*/
+      color: #FFF;
+  }
+
+  #banner
+  {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .bannerdos
+  {
+    margin: 30px 0px;
+  }
+
+  .bannertres
+  {
+    width: 100%;
+    margin: 0px;
+    text-align:center;
+    font-size: 20px;
+  }
+
+  .contenboton
+  {
+    padding: 0px;
+  }
+
+  .buttonbanner
+  {
+    font-size: 20px;
+    margin: 0px 140px;
+  }
+
+  .introserindex
+  {
+    font-size: 23px;
+  }
+
+  .seccionindexuno
+  {
+    width: 100%;
+    /*border: 2px solid red;*/
+  }
+
+  .indexser
+  {
+    width: 93%;
+    margin: 10px;
+  }
+
+  .contenbotondos
+  {
+    margin: 20px 0px;
+  }
+
+  .buttonsecciondos
+  {
+    font-size: 20px;
+    /*border: 2px solid red;*/
+  }
+
+  .seccionindexdos
+  {
+    height: auto;
+  }
+
+  .sistema
+  {
+    font-size: 20px;
+    margin-left: 40%;
+  }
+
+  .subsistema{
+    padding: 20px 10px;
+    text-align: justify;
+    width: 100%;
+    margin: 0px;
+
+  }
+
+  .integrado
+  {
+    font-size: 25px;
+    padding: 25px 0px;
+  }
+
+  .contineerp
+  {
+    width: 100%
+  }
+
+  .subcontineerp
+  {
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .contenbotontres
+  {
+    margin: 20px 0px;
+  }
+
+  .dtcdos, .petruspie
+  {
+    font-size: 15px;
+  }
+
+
+
+  .conocenos
+  {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .informacioon
+  {
+    width: 100%;
+    margin: 0px;
+    padding: 5px 20px;
+  }
+
+  .informaciondos
+  {
+    width: 100%;
+    margin:0px;
+  }
+
+  .secciondosq
+  {
+    height: auto;
+  }
+
+  .main{
+    width: 100%;
+  }
+
+  .view{
+    width: 95%;
+  }
+
+  .mask p
+  {
+    text-align: justify;
+  }
+
+  .nuestrosv
+  {
+    font-size: 25px;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .convalores
+  {
+    width: 100%;
+  }
+
+  .valorestex
+  {
+    width: 100%;
+  }
+
+
+
+  .servicios
+  {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    margin: 0px
+  }
+
+  .contenservicios
+  {
+    padding-top: 20px;
+    height: auto;
+  }
+
+  .soft
+  {
+    font-size: 30px;
+  }
+
+  .content-sup
+  {
+    width: 100%;
+  }
+
+  div.contenedor
+  {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .servvalo p{
+    font-size: 25px;
+  }
+
+  .convaloranadidos
+  {
+    width: 100%;
+  }
+
+  .anadidos
+  {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .empresas p{
+    font-size: 25px;
+  }
+
+  .anadidoss{
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+
+  header
+  {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .nav-header
+  {
+    width:100%;
+		height:auto;
+    top:-300px;
+		position:fixed;
+    z-index: 100;
+    background: rgb(21, 201, 133);
+  }
+
+  #header__icon{
+    display: inline-block;
+    font-size: 45px;
+    line-height: 125px;
+  }
+
+  #logo
+  {
+    width: 80%;
+  }
+
+  #nav
+  {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #nav > ul > li{
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  #nav > ul > li a{
+    margin: 0px;
+    text-align: center;
+  }
+
+  #nav > ul > li a:hover{
+    background: none;
+  }
+
+  #nav li.active a {
+      /*background: #e95d3c;*/
+      background-color: rgb(235, 138, 60);
+      /*border-radius: 5px;*/
+      color: #FFF;
+  }
+
+  #banner
+  {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .bannerdos
+  {
+    margin: 30px 0px;
+  }
+
+  .bannertres
+  {
+    width: 100%;
+    margin: 0px;
+    text-align:center;
+    font-size: 20px;
+  }
+
+  .contenboton
+  {
+    padding: 0px;
+  }
+
+  .buttonbanner
+  {
+    font-size: 20px;
+    margin: 0px 200px;
+  }
+
+  .introserindex
+  {
+    font-size: 23px;
+  }
+
+  .seccionindexuno
+  {
+    width: 100%;
+    /*border: 2px solid red;*/
+  }
+
+  .indexser
+  {
+    width: 93%;
+    margin: 10px;
+  }
+
+  .contenbotondos
+  {
+    margin: 20px 0px;
+  }
+
+  .buttonsecciondos
+  {
+    font-size: 20px;
+    /*border: 2px solid red;*/
+  }
+
+  .seccionindexdos
+  {
+    height: auto;
+  }
+
+  .sistema
+  {
+    font-size: 20px;
+    margin-left: 40%;
+  }
+
+  .subsistema{
+    padding: 20px 10px;
+    text-align: justify;
+    width: 100%;
+    margin: 0px;
+
+  }
+
+  .integrado
+  {
+    font-size: 25px;
+    padding: 25px 0px;
+  }
+
+  .contineerp
+  {
+    width: 100%
+  }
+
+  .subcontineerp
+  {
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .contenbotontres
+  {
+    margin: 20px 0px;
+  }
+
+
+  .dtcdos, .petruspie
+  {
+    font-size: 15px;
+  }
+
+  .conocenos
+  {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .informacioon
+  {
+    width: 100%;
+    margin: 0px;
+    padding: 5px 20px;
+  }
+
+  .informaciondos
+  {
+    width: 100%;
+    margin:0px;
+  }
+
+  .secciondosq
+  {
+    height: auto;
+  }
+
+  .main{
+    width: 100%;
+  }
+
+  .view{
+    width: 95%;
+  }
+
+  .mask p
+  {
+    text-align: justify;
+  }
+
+  .nuestrosv
+  {
+    font-size: 25px;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .convalores
+  {
+    width: 100%;
+  }
+
+  .valorestex
+  {
+    width: 100%;
+  }
+
+  .content-sup
+  {
+    width: 100%;
+  }
+
+  div.contenedor
+  {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  /*.servicios
+  {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    margin: 0px
+  }
+
+  .contenservicios
+  {
+    padding-top: 20px;
+    height: auto;
+  }
+
+  .soft
+  {
+    font-size: 30px;
+  }
+
+
+
+  .servvalo p{
+    font-size: 25px;
+  }
+
+  .convaloranadidos
+  {
+    width: 100%;
+  }
+
+  .anadidos
+  {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .empresas p{
+    font-size: 25px;
+  }
+
+  .anadidoss{
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+  }*/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+  header
+  {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .nav-header
+  {
+    width:100%;
+		height:auto;
+    top:-300px;
+		position:fixed;
+    z-index: 100;
+    background: rgb(21, 201, 133);
+  }
+
+  #header__icon{
+    display: inline-block;
+    font-size: 45px;
+    line-height: 125px;
+  }
+
+  #logo
+  {
+    width: 80%;
+  }
+
+  #nav
+  {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #nav > ul > li{
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  #nav > ul > li a{
+    margin: 0px;
+    text-align: center;
+  }
+
+  #nav > ul > li a:hover{
+    background: none;
+  }
+
+  #nav li.active a {
+      /*background: #e95d3c;*/
+      background-color: rgb(235, 138, 60);
+      /*border-radius: 5px;*/
+      color: #FFF;
+  }
+
+  #banner
+  {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .bannerdos
+  {
+    margin: 30px 0px;
+  }
+
+  .bannertres
+  {
+    width: 100%;
+    margin: 0px;
+    text-align:center;
+    font-size: 35px;
+  }
+
+  .contenboton
+  {
+    padding: 0px;
+  }
+
+  .buttonbanner
+  {
+    font-size: 30px;
+    margin: 0px 320px;
+  }
+
+  .introserindex
+  {
+    font-size: 23px;
+  }
+
+  .seccionindexuno
+  {
+    width: 100%;
+    text-align: center;
+  }
+
+  .indexser
+  {
+    width: 46%;
+    margin-top: 40px;
+    display: inline-block;
+  }
+
+  .contenbotondos
+  {
+    margin: 20px 0px;
+  }
+
+  .buttonsecciondos
+  {
+    font-size: 30px;
+  }
+
+  .seccionindexdos
+  {
+    height: auto;
+  }
+
+  .sistema
+  {
+    font-size: 30px;
+    /*margin-left: 40%;*/
+    /*text-align: center;*/
+  }
+
+  .subsistema{
+    padding: 20px 10px;
+    text-align: justify;
+    width: 100%;
+    margin: 0px;
+
+  }
+
+  .integrado
+  {
+    font-size: 25px;
+    padding: 25px 0px;
+  }
+
+  .contineerp
+  {
+    width: 100%;
+    border:2px solid;
+  }
+
+  .subcontineerp
+  {
+    width: 32%;
+    margin: 20px 4px;
+  }
+
+  .contenbotontres
+  {
+    margin: 20px 0px;
+  }
+
+
+  .dtcdos, .petruspie
+  {
+    font-size: 15px;
+  }
+
+  .secciondosq
+  {
+    height: auto;
+  }
+
+  .main{
+    width: 100%;
+  }
+
+  .view{
+    width: 46%;
+  }
+
+  .mask p
+  {
+    text-align: justify;
+  }
+
+  .nuestrosv
+  {
+    font-size: 25px;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .convalores
+  {
+    width: 100%;
+  }
+
+  .valorestex
+  {
+    width: 100%;
+  }
+
+  .content-sup
+  {
+    width: 100%;
+    /*border: 2px solid red;*/
+  }
+
+  div.contenedor
+  {
+    width: 80%;
+    margin: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+  header
+  {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .nav-header
+  {
+    width:100%;
+		height:auto;
+    top:-300px;
+		position:fixed;
+    z-index: 100;
+    background: rgb(21, 201, 133);
+  }
+
+  #header__icon{
+    display: inline-block;
+    font-size: 45px;
+    line-height: 125px;
+  }
+
+  #logo
+  {
+    width: 80%;
+  }
+
+  #nav
+  {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  #nav > ul > li{
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  #nav > ul > li a{
+    margin: 0px;
+    text-align: center;
+  }
+
+  #nav > ul > li a:hover{
+    background: none;
+  }
+
+  #nav li.active a {
+      /*background: #e95d3c;*/
+      background-color: rgb(235, 138, 60);
+      /*border-radius: 5px;*/
+      color: #FFF;
+  }
+
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

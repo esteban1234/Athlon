@@ -62,31 +62,31 @@
         <p class="contacto">Escríbenos</p>
       </div>
       <p class="texto_servicio"> Escribenos tus comentario, dudas o preguntas, estamos para servirte.</p>
-      <form id="form" action="" method="post">
+      <form id="form" action="envia.php" method="post">
         <div class="group-input">
           <div class="input-group">
             <span id="msj"></span>
-            <label class="label" for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
+            <label class="label">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Nombre completo" required/>
           </div>
           <div class="input-group">
             <span id="msj"></span>
-            <label class="label" for="nombre">Telefono:</label>
-            <input type="text" id="telefono" name="telefono">
+            <label class="label">Telefono:</label>
+            <input type="text" name="telefono">
           </div>
 
           <div class="input-group">
             <span id="msj"></span>
-            <label class="label" for="nombre">Correo:</label>
-            <input type="text" id="correo" name="correo">
+            <label class="label">Correo:</label>
+            <input type="text"  name="correo">
           </div>
           <div class="group-comentario">
             <span id="msj"></span>
-            <label class="label" for="nombre">Correo:</label>
-            <textarea name="name" rows="8" cols="40"></textarea>
+            <label class="label" >Correo:</label>
+            <textarea name="comentario" rows="8" cols="40"></textarea>
           </div>
         </div>
-        <input type="button" class="enviar" name="name" value="Enviar">
+        <input type="submit" class="enviar" value="Enviar">
       </form>
     </div><br><br>
     <span class="ir-arriba icon-arrow-bold-up"></span>
@@ -94,7 +94,7 @@
     <?php include 'Pie.php';?>
 
     <script type="text/javascript" src="../js/jquery.js"></script>
-    <script src="../js/menu.js"></script>
+    <!-- <script src="../js/menu.js"></script> -->
     <script type="text/javascript" src="../js/iconoarriba.js"></script>
     <!-- <script type="text/javascript" src="../Js/formulario.js"></script> -->
 
