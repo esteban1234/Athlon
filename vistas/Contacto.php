@@ -1,6 +1,5 @@
 <?php include 'head.php';?>
     <header>
-        <!-- Nav -->
         <div class="nav-header">
             <nav id="nav">
               <ul>
@@ -18,6 +17,7 @@
 
         <div id="header__icon" class="menu"><span class="icon-menu"></span></div>
     </header>
+
     <div class="img-fondo">
       <p class="contacto">Contáctanos</p>
     </div>
@@ -94,11 +94,7 @@
     <?php include 'Pie.php';?>
 
     <script type="text/javascript" src="../js/jquery.js"></script>
-    <!-- <script src="../js/menu.js"></script> -->
+    <script src="../js/menu.js"></script>
     <script type="text/javascript" src="../js/iconoarriba.js"></script>
-    <!-- <script type="text/javascript" src="../Js/formulario.js"></script> -->
-
-    <!-- <script src="../Js/jqueryvalidate/dist/jquery.validate.min.js"></script> -->
-    <!-- <script src="../Js/jqueryvalidate/src/localization/messages_es .js"></script> -->
   </body>
 </html>

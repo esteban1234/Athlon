@@ -11,7 +11,7 @@
     top:-300px;
 		position:fixed;
     z-index: 100;
-    background: rgb(21, 201, 133);
+    background-color: #fff;
   }
 
   #header__icon{
@@ -36,6 +36,7 @@
     width: 100%;
     float: none;
     display: block;
+    border-top: .5px solid rgba(28, 185, 58, 0.73);
   }
 
   #nav > ul > li a{
@@ -44,13 +45,12 @@
   }
 
   #nav > ul > li a:hover{
-    background: none;
+    background-color: rgba(34, 196, 89, 0.83);
+    color: #fff;
   }
 
   #nav li.active a {
-      /*background: #e95d3c;*/
-      background-color: rgb(235, 138, 60);
-      /*border-radius: 5px;*/
+      background-color: rgba(34, 196, 89, 0.83);
       color: #FFF;
   }
 
@@ -274,6 +274,52 @@
     width: 100%;
     margin: 5px 0px 5px 0px;
   }
+
+  .img-fondo
+  {
+    width: 100%;
+  }
+  .contacto
+  {
+    /*border: 2px solid red;*/
+    width: 55%;
+    font-size: 30px;
+  }
+  .texto_servicio
+  {
+    text-align: justify;
+    margin-bottom: 80px;
+  }
+
+  .mapa iframe
+  {
+    width: 285px;
+    height: 250px;
+  }
+  .direccion
+  {
+    width: 100%;
+  }
+
+  .texto-direccion
+  {
+    width: 100%;
+    border: .1px solid rgba(14, 189, 152, 0.75);
+    padding-top: 15px;
+    margin: 0px;
+  }
+
+  .input-group, .group-comentario
+  {
+    width: 100%;
+  }
+
+  .enviar
+  {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 599px) and (min-width: 481px) {
@@ -290,7 +336,7 @@
     top:-300px;
 		position:fixed;
     z-index: 100;
-    background: rgb(21, 201, 133);
+    background-color: #fff;
   }
 
   #header__icon{
@@ -315,6 +361,7 @@
     width: 100%;
     float: none;
     display: block;
+    border-top: .5px solid rgba(28, 185, 58, 0.73);
   }
 
   #nav > ul > li a{
@@ -323,13 +370,12 @@
   }
 
   #nav > ul > li a:hover{
-    background: none;
+    background-color: rgba(34, 196, 89, 0.83);
+    color: #fff;
   }
 
   #nav li.active a {
-      /*background: #e95d3c;*/
-      background-color: rgb(235, 138, 60);
-      /*border-radius: 5px;*/
+      background-color: rgba(34, 196, 89, 0.83);
       color: #FFF;
   }
 
@@ -552,13 +598,59 @@
     width: 100%;
     margin: 5px 0px 5px 0px;
   }
+
+  .img-fondo
+  {
+    width: 100%;
+  }
+  .contacto
+  {
+    /*border: 2px solid red;*/
+    width: 55%;
+    font-size: 30px;
+  }
+  .texto_servicio
+  {
+    text-align: justify;
+    margin-bottom: 80px;
+  }
+
+  .mapa iframe
+  {
+    width: 446px;
+    height: 250px;
+  }
+  .direccion
+  {
+    width: 100%;
+  }
+
+  .texto-direccion
+  {
+    width: 100%;
+    border: .1px solid rgba(14, 189, 152, 0.75);
+    padding-top: 15px;
+    margin: 0px;
+  }
+
+  .input-group, .group-comentario
+  {
+    width: 100%;
+  }
+
+  .enviar
+  {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 799px) and (min-width: 600px) {
 
   header
   {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
   }
 
@@ -569,7 +661,8 @@
     top:-300px;
 		position:fixed;
     z-index: 100;
-    background: rgb(21, 201, 133);
+    left: 0px;
+    background-color: #fff;
   }
 
   #header__icon{
@@ -594,6 +687,7 @@
     width: 100%;
     float: none;
     display: block;
+    border-top: .5px solid rgba(28, 185, 58, 0.73);
   }
 
   #nav > ul > li a{
@@ -602,15 +696,15 @@
   }
 
   #nav > ul > li a:hover{
-    background: none;
+    background-color: rgba(34, 196, 89, 0.83);
+    color: #fff;
   }
 
   #nav li.active a {
-      /*background: #e95d3c;*/
-      background-color: rgb(235, 138, 60);
-      /*border-radius: 5px;*/
+      background-color: rgba(34, 196, 89, 0.83);
       color: #FFF;
   }
+
 
   #banner
   {
@@ -785,56 +879,58 @@
     width: 100%;
     margin: 10px 0px;
   }
-  /*.servicios
+
+  .img-fondo
   {
-    font-size: 35px;
     width: 100%;
-    text-align: center;
-    margin: 0px
   }
-
-  .contenservicios
+  .contacto
   {
-    padding-top: 20px;
-    height: auto;
-  }
-
-  .soft
-  {
+    /*border: 2px solid red;*/
+    width: 55%;
     font-size: 30px;
   }
-
-
-
-  .servvalo p{
-    font-size: 25px;
+  .texto_servicio
+  {
+    text-align: justify;
+    margin-bottom: 80px;
   }
 
-  .convaloranadidos
+  .mapa iframe
+  {
+    width: 605px;
+    height: 250px;
+  }
+  .direccion
   {
     width: 100%;
   }
 
-  .anadidos
+  .texto-direccion
   {
     width: 100%;
-    margin: 10px 0px;
+    border: .1px solid rgba(14, 189, 152, 0.75);
+    padding-top: 15px;
+    margin: 0px;
   }
 
-  .empresas p{
-    font-size: 25px;
-  }
-
-  .anadidoss{
+  .input-group, .group-comentario
+  {
     width: 100%;
-    margin: 5px 0px 5px 0px;
-  }*/
+  }
+
+  .enviar
+  {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 800px) {
   header
   {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
   }
 
@@ -845,7 +941,8 @@
     top:-300px;
 		position:fixed;
     z-index: 100;
-    background: rgb(21, 201, 133);
+    left: 0px;
+    background-color: #fff;
   }
 
   #header__icon{
@@ -870,6 +967,8 @@
     width: 100%;
     float: none;
     display: block;
+    text-align: center;
+    border-top: .5px solid rgba(28, 185, 58, 0.73);
   }
 
   #nav > ul > li a{
@@ -878,15 +977,15 @@
   }
 
   #nav > ul > li a:hover{
-    background: none;
+    background-color: rgba(34, 196, 89, 0.83);
+    color: #fff;
   }
 
   #nav li.active a {
-      /*background: #e95d3c;*/
-      background-color: rgb(235, 138, 60);
-      /*border-radius: 5px;*/
+      background-color: rgba(34, 196, 89, 0.83);
       color: #FFF;
   }
+
 
   #banner
   {
@@ -1043,23 +1142,71 @@
     width: 80%;
     margin: 10px 0px;
   }
+
+  .img-fondo
+  {
+    width: 100%;
+  }
+  .contacto
+  {
+    /*border: 2px solid red;*/
+    width: 55%;
+    font-size: 30px;
+  }
+  .texto_servicio
+  {
+    text-align: justify;
+    margin-bottom: 80px;
+  }
+
+  .mapa iframe
+  {
+    width: 805px;
+    height: 250px;
+  }
+  .direccion
+  {
+    width: 100%;
+  }
+
+  .texto-direccion
+  {
+    width: 100%;
+    border: .1px solid rgba(14, 189, 152, 0.75);
+    padding-top: 15px;
+    margin: 0px;
+  }
+
+  /*.input-group, .group-comentario
+  {
+    width: 100%;
+  }*/
+
+  /*.enviar
+  {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }*/
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
   header
   {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
   }
 
   .nav-header
   {
-    width:100%;
+    /*border: 2px solid red;*/
+    width:50%;
 		height:auto;
     top:-300px;
 		position:fixed;
     z-index: 100;
-    background: rgb(21, 201, 133);
+    left: 0px;
+    background-color: #fff;
   }
 
   #header__icon{
@@ -1084,6 +1231,8 @@
     width: 100%;
     float: none;
     display: block;
+    text-align: center;
+    border-top: .5px solid rgba(28, 185, 58, 0.73);
   }
 
   #nav > ul > li a{
@@ -1092,16 +1241,38 @@
   }
 
   #nav > ul > li a:hover{
-    background: none;
+    background-color: rgba(34, 196, 89, 0.83);
+    color: #fff;
   }
 
   #nav li.active a {
-      /*background: #e95d3c;*/
-      background-color: rgb(235, 138, 60);
-      /*border-radius: 5px;*/
+      background-color: rgba(34, 196, 89, 0.83);
       color: #FFF;
   }
 
+.cont-general
+{
+  /*border: 2px solid red;*/
+  text-align: center;
+}
+
+.mapa
+{
+  display: inline-block;
+  width: 40%;
+  /*border: 2px solid blue;*/
+}
+  .mapa iframe
+  {
+    width:400px;
+    height: 250px;
+  }
+  .direccion
+  {
+    display: inline-block;
+    width: 40%;
+    /*border: 2px solid green;*/
+  }
 }
 @media screen and (max-width: 1366px) and (min-width: 1024px) { }
 
