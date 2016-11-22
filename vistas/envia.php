@@ -1,67 +1,47 @@
 <?php
-    //Incluimos la clase de PHPMailer
-    include('../phpmailer/phpmailer/class.phpmailer.php');
-    // require_once('phpmailer/class.smtp.php');
-    $correo = new PHPMailer(); //Creamos una instancia en lugar usar mail()
+//Librerías para el envío de mail
+require('../phpmailer/phpmailer/class.phpmailer.php');
+//PHPMailer Object
+$mail = new PHPMailer();
 
-    // Datos que llegan del Formulario
-    // $destino = "bufetesc@hotmail.com";
-    // Datos que llegan del Formulario
-    $destino = "ballina.santiago.com";
-    $name = $_POST['nombre'];
-    $tel = $_POST['telefono'];
-    $email = $_POST['correo'];
-    $comentario = $_POST['comentario'];
+// Recoger los valores del Formulario
 
-    // Codificación UTF8. Obligado utilizarlo en aplicaciones en Español
-    $correo->CharSet = 'UTF-8';
+$nombre = $_POST['nombre'];
+$telefono = $_POST['telefono'];
+$correo = $_POST['correo'];
+$comentario = $_POST['comentario'];
 
-    // Timeout para el servidor de correos. Por defecto es valor es '10'
-    // $correo->Timeout=30;
+$mail->CharSet = 'utf-8';
+//From email address and name
+$mail->From = $correo;
+$mail->FromName = $nombre;
 
-    //Usamos el SetFrom para decirle al script quien envia el correo
-    $correo->SetFrom($email, $name);
+//To address and name
+$mail->addAddress("ballina.Santiago@gmail.com");
 
-    //Usamos el AddReplyTo para decirle al script a quien tiene que responder el correo
-    //$correo->AddReplyTo($email);
+$mail->isHTML(true);
 
-    //Usamos el AddAddress para agregar un destinatario
-    $correo->AddAddress($destino, "Robot");
+$mail->Subject = "Pagina Prueba";
+$mail->Body = "<b>Telefono: </b>.$telefono.<br/>
+              <b>Comentario: </b>.$comentario.<br/>";
+// $mail->AltBody = "This is the plain text version of the email content";
+
+if(!$mail->send())
+{
+    // echo "Error al enviar Mensaje: " . $mail->ErrorInfo;
+    echo ("<SCRIPT LANGUAGE='JavaScript'>
+          window.alert('Error al Enviar MENSAJE')
+          window.location.href='Contacto.php'
+        </SCRIPT>");
+
+}
+else
+{
+  echo ("<SCRIPT LANGUAGE='JavaScript'>
+        window.alert('Mensaje Enviado Correctamente')
+        window.location.href='Contacto.php'
+      </SCRIPT>");
 
 
-
-    //Ponemos el asunto del mensaje
-    $correo->Subject = "Contacto nuevo mensaje";
-
-    /*
-     * Si deseamos enviar un correo con formato HTML utilizaremos MsgHTML:
-     * $correo->MsgHTML("<strong>Mi Mensaje en HTML</strong>");
-     * Si deseamos enviarlo en texto plano, haremos lo siguiente:
-     * $correo->IsHTML(false);
-     * $correo->Body = "Mi mensaje en Texto Plano";
-     */
-    $correo->MsgHTML(
-        "<strong> Nombre Completo: </strong>".$name."<br/>
-        <strong> Teléfono: </strong>".$tel."<br/>
-        <strong> Correo Electronico: </strong>".$email."<br/><br/>
-        <strong> Comentario: </strong>".$comentario
-        );
-
-    //Si deseamos agregar un archivo adjunto utilizamos AddAttachment
-    //$correo->AddAttachment("images/phpmailer.gif");
-
-    //Enviamos el correo
-    if(!$correo->Send()) {
-      // echo "Error al enviar: " . $correo->ErrorInfo;
-      echo " <script type='text/javascript'>
-                    alert('Error al Enviar Mensaje');
-                    window.location='contacto.php';
-                    </script> ";
-    } else {
-      echo " <script type='text/javascript'>
-                    alert('Mensaje Enviado con Exito');
-                    window.location='contacto.php';
-                    </script> ";
-    }
-
+}
 ?>

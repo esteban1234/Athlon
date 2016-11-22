@@ -1,17 +1,15 @@
 <?php include 'head.php';?>
-    <header>
-        <!-- Nav -->
+  <header>
         <div class="nav-header">
             <nav id="nav">
               <ul>
-                <li><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
+                <li><a href="../index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
                 <li><a href="QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
                 <li class="active"><a href="Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
                 <li><a href="Contacto.php"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
               </ul>
             </nav>
         </div>
-
       <!-- Logo -->
         <div id="logo">
           <img class="athlon" src="../img/ATHLON.png" alt="ATHLON PROFESIONALES EN ELECTRÓNICA">
@@ -19,7 +17,6 @@
 
         <div id="header__icon" class="menu"><span class="icon-menu"></span></div>
     </header>
-
     <span class="ir-arriba icon-arrow-bold-up"></span>
 
 
@@ -181,7 +178,7 @@
     <?php include 'Pie.php';?>
 
     <script type="text/javascript" src="../js/jquery.js"></script>
-    <script src="../Js/menu.js"></script>
+    <script src="../js/menu.js"></script>
     <script type="text/javascript" src="../js/iconoarriba.js"></script>
   </body>
 </html>

@@ -1,19 +1,42 @@
-<?php include 'head.php';?>
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<link rel="icon" type="image/png" href="img/ATHLONI.png" />
+			<title> ATHLON | PROFESIONALES EN ELECTRÓNICA</title>
+			 <!-- <META name="msvalidate.01" content="7AEE48A22367420FBAD3410E00B8737C"/> -->
+			<title> Diseño de paginas web yucatan, sitios web merida yucatan, Mexico Yucatan Merida , Soluciones de impresion</title>
+		    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		    <META NAME="Title" content="diseño web en yucatan,diseño web en merida, desarrollo web en merida yucatan mexico, hospedaje web, hosting web, Mexico Merida yucatan">
+		    <!-- <META NAME="Author" CONTENT="[aqui va la pagina]"> -->
+		    <META NAME="ROBOTS" CONTENT="NOARCHIVE">
+		    <META NAME="revisit-after" CONTENT="15 days">
+		    <META NAME="Description" CONTENT="Diseño de paginas web yucatan, sitios web merida yucatan, hospedaje web en Mexico Merida yucatan">
+		    <META NAME="Keywords" CONTENT="diseño web, desarrollo sitios web yucatan, hospedaje web merida yucatan, hosting web Mexico Merida yucatan">
+				<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+				<link rel="stylesheet" href="css/estilos.css">
+				<link rel="stylesheet" href="css/responsivo.css">
+				<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
+				<link rel="stylesheet" href="../fonts/style.css">
+		</head>
+		<body>
+
 <!-- Header -->
 		<header>
 				<div class="nav-header">
 						<nav id="nav">
 							<ul>
-								<li class="active"><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
-								<li><a href="QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
-								<li><a href="Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
-								<li><a href="Contacto.php"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
+								<li class="active"><a href="vistas/Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
+								<li><a href="vistas/QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
+								<li><a href="vistas/Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
+								<li><a href="vistas/Contacto.php"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
 							</ul>
 						</nav>
 				</div>
 			<!-- Logo -->
 				<div id="logo">
-					<img class="athlon" src="../img/ATHLON.png" alt="ATHLON PROFESIONALES EN ELECTRÓNICA">
+					<img class="athlon" src="img/ATHLON.png" alt="ATHLON PROFESIONALES EN ELECTRÓNICA">
 				</div>
 				<div id="header__icon" class="menu"><span class="icon-menu"></span></div>
 		</header>
@@ -149,11 +172,15 @@
 
 <span class="ir-arriba icon-arrow-bold-up"></span>
 
-	<?php include 'Pie.php';?>
+<footer>
+		<article class="piecondos">
+		<p class="dtcdos">Derechos de autor 2016© <b class="petruspie">| PROFESIONALES EN ELECTRONICA ATHLON S. de R.L de C.V.</b></p>
+		</article>
+</footer>
 
-	<script type="text/javascript" src="../js/jquery.js"></script>
-	<script src="../js/menu.js"></script>
-	<script type="text/javascript" src="../js/iconoarriba.js"></script>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script src="../js/menu.js"></script>
+<script type="text/javascript" src="../js/iconoarriba.js"></script>
 
 
 </body>
