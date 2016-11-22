@@ -17,7 +17,7 @@ $mail->From = $correo;
 $mail->FromName = $nombre;
 
 //To address and name
-$mail->addAddress("ballina.Santiago@gmail.com");
+$mail->addAddress("informacion@athlon.mx");
 
 $mail->isHTML(true);
 
