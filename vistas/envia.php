@@ -21,7 +21,7 @@ $mail->addAddress("informacion@athlon.mx");
 
 $mail->isHTML(true);
 
-$mail->Subject = "Pagina Prueba";
+$mail->Subject = "Cotizacion Athlon";
 $mail->Body = "<b>Telefono: </b>.$telefono.<br/>
               <b>Comentario: </b>.$comentario.<br/>";
 // $mail->AltBody = "This is the plain text version of the email content";
