@@ -82,7 +82,7 @@
           </div>
           <div class="group-comentario">
             <span id="msj"></span>
-            <label class="label" >Correo:</label>
+            <label class="label" >Comentarios:</label>
             <textarea name="comentario" rows="8" cols="40"></textarea>
           </div>
         </div>

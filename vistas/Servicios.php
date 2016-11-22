@@ -48,7 +48,7 @@
             <article class="icontres"></article>
             <p class="texto">Contabilidad</p>
             <div class="informacion">
-        Generación de pólizas automáticas de clientes y proveedores. Pólizas manuales. Estados financieros. Informes de contabilidad electrónica para el SAT.
+        Generación de pólizas automáticas de clientes y proveedores. Pólizas manuales. Estados financieros. Informes de contabilidad electrónica.
             </div>
           </div>
           </div>  <!--Termina content-sup-->
