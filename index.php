@@ -18,7 +18,7 @@
 				<link rel="stylesheet" href="css/estilos.css">
 				<link rel="stylesheet" href="css/responsivo.css">
 				<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Roboto+Condensed" rel="stylesheet">
-				<link rel="stylesheet" href="../fonts/style.css">
+				<link rel="stylesheet" href="fonts/style.css">
 		</head>
 		<body>
 
@@ -27,7 +27,7 @@
 				<div class="nav-header">
 						<nav id="nav">
 							<ul>
-								<li class="active"><a href="vistas/Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
+								<li class="active"><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
 								<li><a href="vistas/QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
 								<li><a href="vistas/Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
 								<li><a href="vistas/Contacto.php"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
@@ -47,7 +47,7 @@
 				<p class="bannertres">En <b class="banner4">ATHLON</b> <b class="banner5">Automatizamos</b> tus procesos <br>a través de software.</p>
 			</div>
 
-			<p class="contenboton"><a href="Contacto.php" class="buttonbanner" style="vertical-align:middle" ><span>Contáctanos</span></a></p>
+			<p class="contenboton"><a href="vistas/Contacto.php" class="buttonbanner" style="vertical-align:middle" ><span>Contáctanos</span></a></p>
 			<!-- <input type="button" class="enviarba" name="name" value="Contáctanos"> -->
 		</div>
 
@@ -85,7 +85,7 @@
 			</article>
 	</section>
 
-		<p class="contenbotondos"><a href="Servicios.php" class="buttonsecciondos" style="vertical-align:middle" ><span>Servicios</span></a></p>
+		<p class="contenbotondos"><a href="vistas/Servicios.php" class="buttonsecciondos" style="vertical-align:middle" ><span>Servicios</span></a></p>
 
 	 <!-- <a href="Servicios.php" class="button" style="vertical-align:middle" ><span>Servicios</span></a> -->
 	 <article class="divisor">
@@ -162,7 +162,7 @@
 	 	 </article>
 	 	</article>
 
-	 	<p class="contenbotontres"><a href="Contacto.php" class="buttonsecciondos" style="vertical-align:middle" ><span>Contáctanos</span></a></p>
+	 	<p class="contenbotontres"><a href="vistas/Contacto.php" class="buttonsecciondos" style="vertical-align:middle" ><span>Contáctanos</span></a></p>
 
 	 </section>
 
@@ -178,9 +178,9 @@
 		</article>
 </footer>
 
-<script type="text/javascript" src="../js/jquery.js"></script>
-<script src="../js/menu.js"></script>
-<script type="text/javascript" src="../js/iconoarriba.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/menu.js"></script>
+<script type="text/javascript" src="js/iconoarriba.js"></script>
 
 
 </body>
