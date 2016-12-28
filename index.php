@@ -4,12 +4,11 @@
 			<meta charset="UTF-8">
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<link rel="icon" type="image/png" href="img/ATHLONI.png" />
+			<meta name="google-site-verification" content="DEg0zcFgoCB4u6ZR0Ud4Fif9EcmTa4pFWDWtlpqsMX4" />
 			<title> ATHLON | PROFESIONALES EN ELECTRÓNICA</title>
-			 <!-- <META name="msvalidate.01" content="7AEE48A22367420FBAD3410E00B8737C"/> -->
 			<title> Diseño de paginas web yucatan, sitios web merida yucatan, Mexico Yucatan Merida , Soluciones de impresion</title>
-		    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 		    <META NAME="Title" content="diseño web en yucatan,diseño web en merida, desarrollo web en merida yucatan mexico, hospedaje web, hosting web, Mexico Merida yucatan">
-		    <!-- <META NAME="Author" CONTENT="[aqui va la pagina]"> -->
+		    <META NAME="Author" CONTENT="[http://www.athlon.mx/]">
 		    <META NAME="ROBOTS" CONTENT="NOARCHIVE">
 		    <META NAME="revisit-after" CONTENT="15 days">
 		    <META NAME="Description" CONTENT="Diseño de paginas web yucatan, sitios web merida yucatan, hospedaje web en Mexico Merida yucatan">
