@@ -6,7 +6,7 @@
 			<link rel="icon" type="image/png" href="img/ATHLONI.png" />
 			<meta name="google-site-verification" content="DEg0zcFgoCB4u6ZR0Ud4Fif9EcmTa4pFWDWtlpqsMX4" />
 			<title> ATHLON | PROFESIONALES EN ELECTRÓNICA</title>
-			<title> Diseño de paginas web yucatan, sitios web merida yucatan, Mexico Yucatan Merida , Soluciones de impresion</title>
+			<title> Diseño de paginas web yucatan, sitios web merida yucatan, Mexico Yucatan Merida , Soluciones en redes</title>
 		    <META NAME="Title" content="diseño web en yucatan,diseño web en merida, desarrollo web en merida yucatan mexico, hospedaje web, hosting web, Mexico Merida yucatan">
 		    <META NAME="Author" CONTENT="[http://www.athlon.mx/]">
 		    <META NAME="ROBOTS" CONTENT="NOARCHIVE">

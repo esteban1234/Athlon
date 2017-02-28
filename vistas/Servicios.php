@@ -92,17 +92,78 @@
         <article class="convaloranadidos">
             <article class="anadidos">
               <article class="ico"><span class="icon-code"></span></article>
-              <article class="textoser">Diseños de paginas web optimas para dispositivos moviles y tablets</p></article>
+              <article class="textoser">
+              &nbsp;*&nbsp;Diseños de paginas web optimas para &nbsp;&nbsp;&nbsp;dispositivos moviles y tablets. <br>
+              &nbsp;*&nbsp;Implementación de SW de terceros. <br>
+              &nbsp;*&nbsp;Servicio de analisis de procesos. <br>
+              &nbsp;*&nbsp;Servicio de analisis de procesos. <br>
+              &nbsp;*&nbsp;Implementación de SW de terceros (NOI, COI, &nbsp;&nbsp;&nbsp;FACTURAE, COMPAQ, NOMIPAQ, MICROSIP). <br>
+              &nbsp;*&nbsp;Asesoria en departamento de sistemas.
+              </p></article>
+            </article>
+
+            <article class="anadidos">
+              <article class="ico"><span class="icon-flow-tree"></span></article>
+              <article class="textoser">
+              &nbsp;*&nbsp;Instalación de nodos de voz/datos. <br>
+              &nbsp;*&nbsp;Instalación de rack de comunicaciones. <br>
+              &nbsp;*&nbsp;Instalación de conmutadores. <br>
+              &nbsp;*&nbsp;Configuración de AP y extensores de red. <br>
+              &nbsp;*&nbsp;Configuración de balanceadores de red. <br>
+              &nbsp;*&nbsp;Configuración de dominios de red.
+              </p></article>
+            </article>
+
+             <article class="anadidos">
+              <article class="ico"><span class="icon-download"></span></article>
+              <article class="textoser">
+              &nbsp;*&nbsp;Instalación de servidores windows. <br>
+              &nbsp;*&nbsp;Instalación de servidores novell. <br>
+              &nbsp;*&nbsp;Instalación de servidores linux. <br>
+              &nbsp;*&nbsp;Instalación de aplicaciones de red(Terminal &nbsp;&nbsp;&nbsp;server, webserver y servidor de dominio.
+              </p></article>
             </article>
 
             <article class="anadidos">
               <article class="ico"><span class="icon-cycle"></span></article>
-              <article class="textoser">Desarrollo de software</p></article>
+              <article class="textoser">
+              &nbsp;*&nbsp;Servicio de venta de dominios. <br>
+              &nbsp;*&nbsp;Servicio de alojamiento de dominios. <br>
+              &nbsp;*&nbsp;Renta de servidor virtual. <br>
+              &nbsp;*&nbsp;Renta de Cloud personal.
+              </p></article>
             </article>
 
             <article class="anadidos">
-              <article class="ico"><span class="icon-shopping-cart"></span></article>
-              <article class="textoser">Comercio Electrónico</p></article>
+              <article class="ico"><span class="icon-tools"></span></article>
+              <article class="textoser">
+              &nbsp;*&nbsp;Mantenimiento de equipo de computo. <br>
+              &nbsp;*&nbsp;Mantenimiento de impresoras. <br>
+              &nbsp;*&nbsp;Servicio de venta de dominios. <br>
+              &nbsp;*&nbsp;Mantenimiento de conmutadores.
+              </p></article>
+            </article>
+
+           
+
+            
+
+            <article class="anadidos">
+              <article class="ico"><span class="icon-eye"></span></article>
+              <article class="textoser">
+              &nbsp;*&nbsp;Instalación de CCTV. <br>
+              &nbsp;*&nbsp;Configuración de CCTV remoto. <br>
+              &nbsp;*&nbsp;Mantenimiento de CCTV.
+              </p></article>
+            </article>
+
+            <article class="anadidos">
+              <article class="ico"><span class="icon-megaphone"></span></article>
+              <article class="textoser">
+              &nbsp;*&nbsp;Instalación de alarmas alambricas. <br>
+              &nbsp;*&nbsp;Instalación de alarmas inalambricas. <br>
+              &nbsp;*&nbsp;Monitoreo de alarmas. <br>
+              </p></article>
             </article>
         </article>
     </section>

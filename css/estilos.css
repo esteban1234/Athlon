@@ -823,6 +823,7 @@ div.contenedor:hover div.informacion {
 }
 
 .servvalo {
+    /*border: 2px red solid;*/
     background-color: rgba(190, 208, 1, .8);
     overflow: hidden;
     height: auto;
@@ -840,6 +841,7 @@ div.contenedor:hover div.informacion {
 }
 
 .convaloranadidos {
+    /*border: 2px green solid;*/
     width: 80%;
     margin: 0 auto;
     margin-top: 2%;
@@ -853,6 +855,7 @@ div.contenedor:hover div.informacion {
     vertical-align: top;
     width: 30%;
     margin-left: 2.5%;
+    margin-top: 1%;
     text-align: center;
 }
 
@@ -866,7 +869,7 @@ div.contenedor:hover div.informacion {
 .textoser {
     margin-top: 2%;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
     color: black;
     width: 100%;
     font-size: 18px;
