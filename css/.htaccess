@@ -1,0 +1,27 @@
+Options -Indexes
+
+
+#<IfModule mod_rewrite.c>
+# Activar RewriteEngine
+#RewriteEngine on
+#RewriteBase /github/athlon/vistas/
+#RewriteBase /github/athlon
+#RewriteCond %{SCRIPT_FILENAME} !-d
+#RewriteCond %{SCRIPT_FILENAME} !-f
+
+#RewriteRule ^(.*)$ $1.php
+#RewriteRule ^(.*)$  $1.php
+#RewriteRule ^(.*)$  /vistas/$1.php
+#RewriteRule /^contacto)$  /vistas/contacto.php [L]
+
+#</IfModule>
+
+
+#RewriteEngine on
+#RewriteBase /github/cometren
+#RewriteCond %{SCRIPT_FILENAME} !-d
+#RewriteCond %{SCRIPT_FILENAME} !-f
+
+#RewriteRule ^nosotros/$  /vistas/nosotros.php [L]
+#RewriteRule ^servicios/$ /vistas/servicios.php [L]
+#RewriteRule ^contacto/$  /vistas/contacto.php [L]
