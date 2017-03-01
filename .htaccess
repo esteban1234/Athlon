@@ -1,9 +1,15 @@
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule ^(.*)$1 /vistas/$1.php
+
+#Rewriterule ^(.*)$1 vistas/Servicios.php
+
 Options -Indexes
 
 
 #<IfModule mod_rewrite.c>
 # Activar RewriteEngine
-RewriteEngine on
+#RewriteEngine on
 #RewriteBase /github/athlon/vistas/
 #RewriteBase /github/athlon
 #RewriteCond %{SCRIPT_FILENAME} !-d
