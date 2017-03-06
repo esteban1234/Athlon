@@ -27,9 +27,9 @@
 						<nav id="nav">
 							<ul>
 								<li class="active"><a href="Index.php"><span class="icon-home"></span>&nbsp;INICIO</a></li>
-								<li><a href="quienessomos/"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
-								<li><a href="servicios/"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
-								<li><a href="contacto/"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
+								<li><a href="vistas/QuienesSomos.php"><span class="icon-users"></span>&nbsp;QUIENES SOMOS</a></li>
+								<li><a href="vistas/Servicios.php"><span class="icon-suitcase"></span>&nbsp;SERVICIOS</a></li>
+								<li><a href="vistas/Contacto.php"><span class="icon-old-phone"></span>&nbsp;CONTACTO</a></li>
 							</ul>
 						</nav>
 				</div>
@@ -60,7 +60,7 @@
 				<article class="conttextoencabezadoindex-y-textoindex">
 					<p class="textoencabezadoindex">Software a la medida</p>
 				 	<p class="textoindex">Contamos con amplio dominio en el desarrollo de soluciones de procesos y de control, así como de aplicaciones y servicios, aumentando la productividad y accesibilidad de tu industria, empresa o negocio.</p>
-				 	<a class="enlaceicono" href="Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
+				 	<a class="enlaceicono" href="vistas/Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
 				</article>
 			</article>
 
@@ -70,7 +70,7 @@
 				<article class="conttextoencabezadoindex-y-textoindex">
 					<p class="textoencabezadoindex">Diseño adaptable</p>
 				 	<p class="textoindex">Lleva tu sistema web a donde vayas. Ya que siempre se vera perfecta ya sea desde una PC  de escritorio, tablet o teléfono móvil.</p>
-				 	<a class="enlaceicono" href="Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
+				 	<a class="enlaceicono" href="vistas/Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
 				</article>
 			</article>
 
@@ -79,7 +79,7 @@
 				<article class="conttextoencabezadoindex-y-textoindex">
 					<p class="textoencabezadoindex">Sistemas actualizables</p>
 				 	<p class="textoindex">Desarrollamos sistemas de gran alcance, actualizables y facil de manejar. Nos adaptamos a cualquier objetivo de su empresa.</p>
-				 	<a class="enlaceicono" href="Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
+				 	<a class="enlaceicono" href="vistas/Servicios.php"><p class="conicono"><span class="icon-chevron-with-circle-right icono1"></span><p></a><br>
 				</article>
 			</article>
 	</section>
